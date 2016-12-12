@@ -1,0 +1,10 @@
+Package: ejercicio06
+Type: Package
+Title: Paquete básico de prueba
+Version: 0.1.0
+Author: Julio César Morrondo Martín
+Maintainer: <julio.morrondo@live.u-tad.com>
+Description: Paquete de prueba que forma parte de la práctica de la asignatura Tratamiento de Datos en R. Contiene una serie de funciones básica para probar el manejor de paquetes.
+License: GPL
+LazyData: TRUE
+Encoding: UTF-8

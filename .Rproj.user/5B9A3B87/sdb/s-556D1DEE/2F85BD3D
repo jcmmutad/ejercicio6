@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{suma.dos.numeros}\n\\alias{suma.dos.numeros}\n\\title{función que suma dos valores}\n\\description{\nLa función recibe dos números y los suma, devolviendo el resultado\n}\n\\usage{\nsuma.dos.numeros(a, b)\n}\n\\arguments{\n  \\item{a}{ un número a sumar }\n  \\item{b}{ otro número a sumar }\n}\n\\examples{\n  z <- suma.dos.numeros(2, 5)\n  z\n}\n",
+    "created" : 1481571624415.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "497811075",
+    "id" : "2F85BD3D",
+    "lastKnownWriteTime" : 1481571633,
+    "last_content_update" : 1481571633326,
+    "path" : "~/MasterBigData/Módulo2/tratamientoDatosR/ejercicio06/man/suma.Rd",
+    "project_path" : "man/suma.Rd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

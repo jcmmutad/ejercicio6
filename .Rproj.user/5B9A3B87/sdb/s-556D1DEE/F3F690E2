@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"06_ejercicio_extra\"\nauthor: \"Julio César Morrondo Martín\"\ndate: \"12 de diciembre, 2016\"\noutput: html_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n# Ejercicio extra (2 puntos)\nCrea un paquete de R con dos o tres funciones tontas. Una de ellas tiene que llamarse suma.dos.numeros y\ntiene que aceptar dos parámetros: los números que quieres sumar. Luego súbelo a Github.\nPara puntuar en este ejercicio, me tienes que pasar una versión del siguiente código,\n\n```{r enun, eval = FALSE}\nlibrary(devtools)\ninstall_github(\"url del paquete\")\nlibrary(\"nombre del paquete\")\nsuma.dos.numeros(2, 2)\nsuma.dos.numeros(2, 5)\n?suma.dos.numeros\nremove.packages(\"nombre del paquete\")\n```\n\nue instale tu paquete, ejecute lo que me interesa y lo elimine después.\n\n\nLos puntos se asignarán así:\n\n* Que el paquete se instale sin problemas: 0.5 puntos\n* Que la función anterior se ejecute correctamente: 0.5 puntos\n* Que la función esté correctamente documentada: 0.5 puntos\n* Que los ejemplos de la ayuda del paquete se ejecuten correctamente: 0.5 puntos\n\n# Solución\n## Documentación\nEl resultado de este ejercicio se debe a la investigación realizada en la web al respecto. Los documentos más relevantes encontrados y que considero de mayor importancia son:\n\n* [R-CRAN](https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf)\n* [R_paratodos](https://rparatodos.wordpress.com/paquetes/crear-paquete/)\n* [Putting your R package on GitHub](http://kbroman.org/pkg_primer/pages/github.html)\n\n\n## Resumen procedimiento\n\nLos pasos, de manera resumida son:\n\n1. Para crear la estructura del paquete nos valemos del propio __RStudio__, haciendo uso del menu de creación de paquetes: _File -> New Proyect_\n2. Editamos el fichero _DESCRIPTION_\n3. Dentro de _src_ creamos nuestras funciones en ficheros con extensión _.R_\n4. Dentro de la carpeta _man_ creamos un fichero _.Rd_ por cada fichero _.R_ del punto anterior\n5. Chequeamos el paqute dentro de la pestaña de _Build_, prestando atención al resultado para poder corregir fallos y avisos\n\n\n",
+    "created" : 1481571662724.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "268797307",
+    "id" : "F3F690E2",
+    "lastKnownWriteTime" : 1481571980,
+    "last_content_update" : 1481571980029,
+    "path" : "~/MasterBigData/Módulo2/tratamientoDatosR/practica/src/06_ejercicio_extra.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
